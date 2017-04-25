@@ -23,7 +23,7 @@ def symmetric_difference(A, B):
     unionized = [i for i in A]
     unionized += [i for i in B if i not in A]
     intersected = [i for i in B if i in A]
-    return [i for i in unionised if i not in intersected]
+    return [i for i in unionized if i not in intersected]
 
 
 def cartesian_product(A, B):
